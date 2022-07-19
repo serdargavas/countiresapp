@@ -19,5 +19,5 @@ API ENDPOINT : "https://restcountries.com/v3.1/all"
 
 ### `RUN`
 
-Simply cd into project and run "npm install"
+Simply cd into project and run "npm install" </br>
 When installation done, type "npm start"
