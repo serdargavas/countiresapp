@@ -14,10 +14,10 @@
 
 ### `API`
 
-API URL : "https://restcountries.com/"
+API URL : "https://restcountries.com/" </br>
 API ENDPOINT : "https://restcountries.com/v3.1/all"
 
 ### `RUN`
 
-Simply cd into project and run "npm i"
+Simply cd into project and run "npm install"
 When installation done, type "npm start"
