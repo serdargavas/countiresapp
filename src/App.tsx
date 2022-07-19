@@ -18,9 +18,12 @@ function App() {
   var items = document.querySelectorAll<HTMLElement>(".item");
 
   useEffect(() => {
-    ScrollTrigger.refresh();
-    Observer();
-    FlipContent();
+    if(items) Observer(); FlipContent();
+  }, [items])
+  
+
+  useEffect(() => {
+    if(items)  ScrollTrigger.refresh(true);
   }, [items]);
 
   const { data, status } = useQuery("countries", fetchCountry);
