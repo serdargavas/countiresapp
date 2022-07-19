@@ -1,0 +1,39 @@
+footer {
+  background-color: rgba($color: #ffffff, $alpha: 0.05);
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  .footer-inner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    h1 {
+      width: 100%;
+      font-size: 20px;
+      font-weight: 500;
+      color: white;
+      text-align: center;
+      font-family: "Oxygen", sans-serif;
+      margin:0;
+    }
+    h2 {
+      width: 100%;
+      font-size: 20px;
+      font-weight: 300;
+      color: rgba($color: #FFF, $alpha: .6);
+      text-align: center;
+      font-family: "Oxygen", sans-serif;
+      margin: 10px;
+    }
+    .social-icons {
+      img {
+        margin: 0 5px;
+        height: 40px;
+        width: 40px;
+      }
+    }
+  }
+}
