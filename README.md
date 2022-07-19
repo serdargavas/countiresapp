@@ -1,4 +1,4 @@
-# Countries app with TS, redux-toolkit, react-query and gsap
+# <h1 align="Center">Countries app with TS, redux-toolkit, react-query and gsap</h1>
 
 <h3 align="Center">Languages and Tools</h3>
 <p align="center">
