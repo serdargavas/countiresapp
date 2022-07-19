@@ -135,8 +135,8 @@ const Detail: FunctionComponent = () => {
                   <p> {count.country.translations.urd.common}</p>
                 </div>
                 <div className="translation-item">
-                  <p> {count.country.translations.zho.official}</p>
-                  <p> {count.country.translations.zho.common}</p>
+                  <p> {count.country.translations.zho ? count.country.translations.zho.official:null}</p>
+                  <p> {count.country.translations.zho ? count.country.translations.zho.common :null}</p>
                 </div>
               </div>
             </div>
