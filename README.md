@@ -1,5 +1,11 @@
 # Countries app with TS, redux-toolkit, react-query and gsap
 
+<h3 align="Center">Languages and Tools</h3>
+<p align="center">
+<img src="./public/css.png" style="height: 4rem">
+  
+</p>
+
 
 ### `API`
 
